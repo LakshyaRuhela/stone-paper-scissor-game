@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- score board record -->
+      <div class="score_board">
+        <div class="score">
+          <p id="comp-score">Computer : <span id="userScorePara">0</span></p>
+        </div>
+        <div class="score">
+          <p id="comp-score">You : <span id="compScorePara">0</span></p>
+        </div>
+      </div>
+      <!-- Choices of stone / paper / scissor -->
+      <div class="choices">
+        <div class="choice" id="rock">
+            <img src="/images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="/images//paper.png">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="/images/scissor.png">
+        </div>
+      </div>
+      <!-- input type of choice output-->
+      <div class="choices-update">
+        <div class="your-choice">
+            <p>You Choose : </p>
+        </div>
+        <div class="com-choice">
+            <p>Computer Choose : </p>
+        </div>
+
+      </div>
+      <!-- Msge display Block-->
+      <div class="win-msge">
+        <p id="msg"> <b>Choose your choice !!</b></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
